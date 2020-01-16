@@ -1,0 +1,57 @@
+$prefix              : ddv;
+
+// colors
+$color-write            : #fff;
+$color-transparent      : transparent;
+
+// 品牌色
+$theme-default          : #2D70A7FF;
+$theme-selected         : #F9FAFCFF;
+$theme-hovel            : #3889CCFF;
+$theme-active           : #245B88FF;
+$theme-background       : #F9FAFCFF;
+
+// 功能色
+$status-success         : #3A8FD3FF;
+$status-running         : #52BA26FF;
+$status-warning         : #F4B45DFF;
+$status-error           : #FD4B54FF;
+
+// 字体颜色
+$fontcolor-title        : rgba(0, 0, 0, .80);
+$fontcolor-primary      : rgba(0, 0, 0, .65);
+$fontcolor-secondary    : rgba(0, 0, 0, .45);
+$fontcolor-disabled     : rgba(0, 0, 0, .25);
+$fontcolor-border       : rgba(0, 0, 0, .15);
+$fontcolor-dividers     : rgba(0, 0, 0, .09);
+$fontcolor-background   : rgba(0, 0, 0, .04);
+$fontcolor-tableHeader  : rgba(0, 0, 0, .02);
+
+// 文本基础设置
+$line-height-base       : 1;
+$border-radius-base     : 4px;
+
+$zIndex-modal           : 1000;
+
+// vertical paddings
+$padding-lg             : 24px;
+$padding-md             : 16px;
+$padding-sm             : 12px;
+$padding-xs             : 8px;
+
+$btn-font-weight        : normal;
+
+// a 标签
+$link-color             : #2D70A7FF;
+$link-hover-color       : #2D70A7FF;
+$link-active-color      : #2D70A7FF;
+
+$cursor-disabled        : not-allowed;
+$transition-time        : .3s;
+$border-radius-base     : 6px;
+$border-radius-small    : 4px;
+
+// Z-index
+$zindex-tooltip         : 1060;
+
+$base_lineHeight        : 1;
