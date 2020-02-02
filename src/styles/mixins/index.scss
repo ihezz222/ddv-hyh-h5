@@ -1,3 +1,24 @@
 @mixin shadow {
   box-shadow:0px 4px 18px -1px rgba(120,154,187,0.3);
 }
+@mixin btn() {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: $btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: $line-height-base;
+  padding: $btn-padding-base;
+  user-select: none;
+  background: $color-write;
+  outline: none;
+}
+
+@mixin input {
+  border: none;
+  outline: none;
+}

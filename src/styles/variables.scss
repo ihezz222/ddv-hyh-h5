@@ -1,4 +1,8 @@
-$prefix              : ddv;
+
+// Prefix
+$prefix                 : ddv-;
+
+$html-fontsize          : 20;
 
 // colors
 $color-write            : #fff;
@@ -27,6 +31,13 @@ $fontcolor-dividers     : rgba(0, 0, 0, .09);
 $fontcolor-background   : rgba(0, 0, 0, .04);
 $fontcolor-tableHeader  : rgba(0, 0, 0, .02);
 
+// 标题字体大小
+$fontsize-title         : pxToRem(18);
+$fontsize-text          : pxToRem(14);
+
+// 按钮字体
+$btn-fontsize-text      : pxToRem(14);
+
 // 文本基础设置
 $line-height-base       : 1;
 $border-radius-base     : 4px;
@@ -39,6 +50,8 @@ $padding-md             : 16px;
 $padding-sm             : 12px;
 $padding-xs             : 8px;
 
+$btn-padding-base       : pxToRem(14) 0;
+
 $btn-font-weight        : normal;
 
 // a 标签
@@ -50,8 +63,7 @@ $cursor-disabled        : not-allowed;
 $transition-time        : .3s;
 $border-radius-base     : 6px;
 $border-radius-small    : 4px;
+$font-size-base         : pxToRem(12);
 
 // Z-index
 $zindex-tooltip         : 1060;
-
-$base_lineHeight        : 1;

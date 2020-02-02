@@ -4,7 +4,7 @@ import classnames from 'classnames';
 interface ILayoutAppProps {
   header?: JSX.Element;
   content?: JSX.Element;
-  footer?: JSX.Element;
+  footer?: JSX.Element | null;
 }
 
 const LayoutApp = function(props: ILayoutAppProps): JSX.Element {

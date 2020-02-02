@@ -13,12 +13,12 @@ const navList: IMenuItem[] = [
   {
     name: '商品',
     icon: 'ddv-feilei',
-    path: '/Goods',
+    path: '/goods',
   },
   {
     name: '购物车',
     icon: 'ddv-gouwu',
-    path: '/shppingCar',
+    path: '/cart',
   },
   {
     name: '我的',
@@ -32,16 +32,15 @@ const navList: IMenuItem[] = [
  * @param {props} 路由上下文
  * @return: JSX.Element
  */
-const RenderFooterNav = (props: RouteComponentProps): JSX.Element => {
+const RenderFooterNav = (props: RouteComponentProps): JSX.Element | null => {
   const { history, location } = props;
   const currentIndex = navList.findIndex(item => item.path === location.pathname);
-
   function onClickRouter(item: IMenuItem): void {
-    console.log(item);
     history.push(item.path);
   }
-  return <FooterNav data={navList} currentIndex={currentIndex} onClick={onClickRouter} />;
+  return currentIndex !== -1 ? <FooterNav data={navList} currentIndex={currentIndex} onClick={onClickRouter} /> : null;
 };
+
 class App extends React.Component<RouteComponentProps> {
   render(): JSX.Element {
     return (

@@ -1,4 +1,4 @@
-$prefixCls: #{$prefix}-footer-nav;
+$prefixCls: #{$prefix}footer-nav;
 
 .#{$prefixCls}{
     height: 60px;
@@ -16,12 +16,12 @@ $prefixCls: #{$prefix}-footer-nav;
         color: $fontcolor-title;
         i{
             display: block;
-            line-height: $base_lineHeight;
+            line-height: $line-height-base;
             font-size: 24px;
         }
         p{
             display: block;
-            line-height: $base_lineHeight;
+            line-height: $line-height-base;
             font-size: 14px;
             margin-top: 8px;
         }

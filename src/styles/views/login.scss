@@ -1,0 +1,57 @@
+$prefixCls: #{$prefix}login;
+
+.#{$prefixCls}{
+  padding: 0 30px;
+  &-code-submit{
+    font-size: pxToRem(12);
+    line-height: pxToRem(12);
+    color: $fontcolor-primary;
+    text-align: right;
+    padding: 20px 0;
+    >.ddv-icon{
+      font-size: pxToRem(12);
+      line-height: pxToRem(12);
+    }
+  }
+  &-title{
+    font-size: pxToRem(28);
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  &-forget-pasworld{
+    font-size: pxToRem(12);
+    text-align: right;
+    color: $fontcolor-disabled;
+  }
+  &-logout-account{
+    font-size: pxToRem(12);
+    text-align: center;
+    color: $fontcolor-disabled;
+    margin-top: 20px;
+    a{
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
+  &-form{
+    &-item{
+      margin-bottom: 12px;
+      border-bottom: 1px #ddd solid;
+      padding: 10px 0;
+      input{
+        @include input;
+        width: 100%;
+        background: transparent;
+        font-size: pxToRem(14);
+        height: pxToRem(34);
+        line-height: pxToRem(34);
+        &::placeholder{
+          color: $fontcolor-disabled;
+        }
+      }
+    }
+    &-submit{
+      margin-top: 60px;
+    }
+  }
+}

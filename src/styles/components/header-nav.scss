@@ -1,0 +1,28 @@
+$prefixCls: #{$prefix}header-nav;
+
+.#{$prefixCls}{
+  height: 44px;
+  display: flex;
+  position: relative;
+  @include shadow;
+  &-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    >i{
+      font-size: pxToRem(26);
+    }
+  }
+  &-content{
+    line-height: 44px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  &-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
