@@ -1,0 +1,18 @@
+@import "./func.scss";
+@import "./variables.scss";
+@import "./mixins/index.scss";
+@import "./components/index.scss";
+@import "./views/index.scss";
+@import "./layout.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+html, body, #app{
+  height: 100%;
+  font-size: #{$html-fontsize}px;
+}

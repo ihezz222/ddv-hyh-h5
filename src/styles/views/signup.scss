@@ -1,0 +1,22 @@
+$prefixCls: #{$prefix}signup;
+
+.#{$prefixCls}{
+  &-form{
+    margin: 60px auto;
+    width: 90%;
+    padding: 30px 24px 24px 24px;
+    border-radius: 4px;
+    &-item{
+      margin-bottom: 20px;
+      input{
+        width: 100%;
+        line-height: pxToRem(34);
+        @include input;
+        border-bottom: 1px #ddd solid;
+      }
+    }
+    &-submit{
+      margin-top: 60px;
+    }
+  }
+}
